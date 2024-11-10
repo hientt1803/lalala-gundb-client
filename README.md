@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+<!-- lưu placeID, checkin checkout làm key và thông tin đã map của các hotel -->
+Nếu có client nào đó nhập vào key giống như vậy thì sẽ lấy thông tin từ indexedDB ra chứ không fetch data mới nữa
+
+<!-- KHi người dùng truy cập vào trang chi tiết cũng cache lại data khi người dùng nào đó truy cập vào thì lấy ra xài khỏi fetch lại -->
